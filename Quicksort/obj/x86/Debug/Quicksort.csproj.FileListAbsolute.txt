@@ -1,0 +1,12 @@
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\bin\Debug\Quicksort.exe
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\bin\Debug\Quicksort.pdb
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Debug\Quicksort.exe
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Debug\Quicksort.pdb
+D:\workspace\Quicksort\Quicksort\obj\x86\Debug\Quicksort.exe
+D:\workspace\Quicksort\Quicksort\obj\x86\Debug\Quicksort.pdb
