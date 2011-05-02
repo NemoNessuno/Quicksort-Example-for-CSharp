@@ -1,0 +1,10 @@
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Release\Quicksort.exe
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Release\Quicksort.pdb
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Release\Quicksort.exe
+C:\Users\Nessuno\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Release\Quicksort.pdb
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Release\Quicksort.exe
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Release\Quicksort.pdb
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\bin\Release\Quicksort.exe
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\bin\Release\Quicksort.pdb
+C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Release\ResolveAssemblyReference.cache
