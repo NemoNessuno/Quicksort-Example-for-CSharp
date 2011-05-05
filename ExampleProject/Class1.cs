@@ -29,6 +29,8 @@ namespace ExampleNameSpace
        private byte byte1;
        string string1;
 
+       //Es folgen ein paar Möglichkeiten Methoden zu
+       //überschreiben
        string ExampleMethod1() { return ""; }
 
        public int ExampleMethod2(int param1)
@@ -43,5 +45,8 @@ namespace ExampleNameSpace
 
        public abstract void ExampleMethod3(int param1);
 
+       static void Main(string[] args)
+       {
+       }
    }
 }

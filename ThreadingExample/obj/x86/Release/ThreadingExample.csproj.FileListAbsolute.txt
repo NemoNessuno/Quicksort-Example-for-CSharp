@@ -1,0 +1,5 @@
+D:\workspace\Quicksort\ThreadingExample\obj\x86\Release\ResolveAssemblyReference.cache
+D:\workspace\Quicksort\ThreadingExample\bin\Release\ThreadingExample.exe
+D:\workspace\Quicksort\ThreadingExample\bin\Release\ThreadingExample.pdb
+D:\workspace\Quicksort\ThreadingExample\obj\x86\Release\ThreadingExample.exe
+D:\workspace\Quicksort\ThreadingExample\obj\x86\Release\ThreadingExample.pdb

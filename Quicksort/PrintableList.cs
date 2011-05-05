@@ -5,17 +5,17 @@ using System.Text;
 
 namespace Quicksort
 {
-    class PrintableList<T>
+    class PrintableList
     {
-        public T[] ts;
+        public dynamic[] ts;
 
         public PrintableList(int size)
         {
-            this.ts = new T[size];
+            this.ts = new dynamic[size];
         }
 
         //Indexer Definition
-        public T this[int i]
+        public dynamic this[int i]
         {
             get
             {
@@ -29,7 +29,7 @@ namespace Quicksort
 
         public void Print()
         {
-            foreach (T t in ts) Console.WriteLine(t);
+            foreach (dynamic t in ts) Console.WriteLine(t);
         }
     }
 }

@@ -13,12 +13,12 @@ namespace Quicksort
        public abstract void ConcurrentSort(int threadnumber);
     }
 
-    class ComparableSorter<T> : Sorter where T : Comparable
+    class ComparableSorter : Sorter
     {
-        Comparable[] comparables;
+        dynamic[] comparables;
         protected Thread[] threadpool;
 
-        public ComparableSorter(PrintableList<T> list)
+        public ComparableSorter(PrintableList list)
         {
             this.comparables = list.ts;
         }
@@ -87,7 +87,7 @@ namespace Quicksort
         {
             int i = left;
             int j = right;
-            Comparable pivot = comparables[right];
+            dynamic pivot = comparables[right];
             do
             {
                 while (comparables[i] <= pivot && i < right)
@@ -107,7 +107,7 @@ namespace Quicksort
 
         private void swap(int i, int j)
         {
-            Comparable temp = comparables[i];
+            dynamic temp = comparables[i];
             comparables[i] = comparables[j];
             comparables[j] = temp;
         }
@@ -129,62 +129,62 @@ namespace Quicksort
         }
     }
 
-    class IntSorter : Sorter
-    {
+    //class IntSorter : Sorter
+    //{
 
-        private int[] value;
+    //    private int[] value;
 
-        public IntSorter(int[] value)
-        {
-            this.value = value;
-        }
+    //    public IntSorter(int[] value)
+    //    {
+    //        this.value = value;
+    //    }
 
-        public int[] Value { get { return this.value; } }
+    //    public int[] Value { get { return this.value; } }
 
-        public override void Sort()
-        {
-            QuickIntSort(0, this.value.Count() - 1);
-        }
+    //    public override void Sort()
+    //    {
+    //        QuickIntSort(0, this.value.Count() - 1);
+    //    }
 
-        public override void ConcurrentSort(int numberthreads) { }
+    //    public override void ConcurrentSort(int numberthreads) { }
 
-        private void QuickIntSort(int left, int right)
-        {
-            if (left < right)
-            {
-                int pivotIndex = Divide(left, right);
-                QuickIntSort(left, pivotIndex - 1);
-                QuickIntSort(pivotIndex + 1, right);
-            }
-        }
+    //    private void QuickIntSort(int left, int right)
+    //    {
+    //        if (left < right)
+    //        {
+    //            int pivotIndex = Divide(left, right);
+    //            QuickIntSort(left, pivotIndex - 1);
+    //            QuickIntSort(pivotIndex + 1, right);
+    //        }
+    //    }
 
-        private int Divide(int left, int right)
-        {
-            int i = left;
-            int j = right;
-            int pivot = value[right];
-            do
-            {
-                while (value[i] <= pivot && i < right)
-                    i++;
-                while (value[j] >= pivot && j > left)
-                    j--;
+    //    private int Divide(int left, int right)
+    //    {
+    //        int i = left;
+    //        int j = right;
+    //        int pivot = value[right];
+    //        do
+    //        {
+    //            while (value[i] <= pivot && i < right)
+    //                i++;
+    //            while (value[j] >= pivot && j > left)
+    //                j--;
 
-                if (i < j) Swap(i, j);
+    //            if (i < j) Swap(i, j);
 
-            } while (i < j);
+    //        } while (i < j);
 
-            if (value[i] > pivot)
-                Swap(i, right);
+    //        if (value[i] > pivot)
+    //            Swap(i, right);
 
-            return i;
-        }
+    //        return i;
+    //    }
 
-        private void Swap(int i, int j)
-        {
-            int temp = value[i];
-            value[i] = value[j];
-            value[j] = temp;
-        }
-    }
+    //    private void Swap(int i, int j)
+    //    {
+    //        int temp = value[i];
+    //        value[i] = value[j];
+    //        value[j] = temp;
+    //    }
+    //}
 }

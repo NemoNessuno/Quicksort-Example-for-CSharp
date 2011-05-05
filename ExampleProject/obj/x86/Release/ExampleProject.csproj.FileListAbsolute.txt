@@ -1,0 +1,5 @@
+D:\workspace\Quicksort\ExampleProject\bin\Release\ExampleProject.exe
+D:\workspace\Quicksort\ExampleProject\bin\Release\ExampleProject.pdb
+D:\workspace\Quicksort\ExampleProject\obj\x86\Release\ResolveAssemblyReference.cache
+D:\workspace\Quicksort\ExampleProject\obj\x86\Release\ExampleProject.exe
+D:\workspace\Quicksort\ExampleProject\obj\x86\Release\ExampleProject.pdb

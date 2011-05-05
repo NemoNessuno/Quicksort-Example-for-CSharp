@@ -7,20 +7,20 @@ namespace Quicksort
     {
         static void Main(string[] args)
         {
-            PrintableList<int> ints = GetIntArray(1000000);
-            PrintableList<Animal> fewAnimals = getAnimalArray();
-            PrintableList<Integer> integers = GetRandomIntegerArray(1000000);
-            PrintableList<Animal> manyAnimals = GetRandomAnimalArray(1000000);
+            PrintableList ints = GetIntArray(1000000);
+            PrintableList fewAnimals = getAnimalArray();
+            PrintableList integers = GetRandomIntegerArray(1000000);
+            PrintableList manyAnimals = GetRandomAnimalArray(1000000);
 
             //1.000.000 int
-            measure(new IntSorter(ints.ts));
+            measure(new ComparableSorter(ints));
             //ints.Print();
             //1.000.000 Integer
-            measure(new ComparableSorter<Integer>(integers));
+            measure(new ComparableSorter(integers));
             //1.000.000 Animals
-            measure(new ComparableSorter<Animal>(manyAnimals));
+            measure(new ComparableSorter(manyAnimals));
             //10 Animals
-            measure(new ComparableSorter<Animal>(fewAnimals));
+            measure(new ComparableSorter(fewAnimals));
             fewAnimals.Print();
         }
 
@@ -32,9 +32,9 @@ namespace Quicksort
             Console.WriteLine(DateTime.Now.Subtract(start));
         }
 
-        private static PrintableList<Animal> getAnimalArray()
+        private static PrintableList getAnimalArray()
         {
-            PrintableList<Animal> result = new PrintableList<Animal>(10);
+            PrintableList result = new PrintableList(10);
 
             //Collection Initializer
             List<Animal> animalList = new List<Animal>()
@@ -79,27 +79,27 @@ namespace Quicksort
             return result;
         }
 
-        private static PrintableList<Animal> GetRandomAnimalArray(int size)
+        private static PrintableList GetRandomAnimalArray(int size)
         {
-            PrintableList<Animal> result = new PrintableList<Animal>(size);
+            PrintableList result = new PrintableList(size);
             Random random = new Random();
             for (int i = 0; i < size; i++)
                 result[i] = new Animal() { Name = string.Format("Name{0}", random.Next(size * 100)) };
             return result;
         }
 
-        private static PrintableList<Integer> GetRandomIntegerArray(int size)
+        private static PrintableList GetRandomIntegerArray(int size)
         {
-            PrintableList<Integer> result = new PrintableList<Integer>(size);
+            PrintableList result = new PrintableList(size);
             Random random = new Random();
             for (int i = 0; i < size; i++)
                 result[i] = new Integer() { Zahl = random.Next(size * 100) };
             return result;
         }
 
-        private static PrintableList<int> GetIntArray(int size)
+        private static PrintableList GetIntArray(int size)
         {
-            PrintableList<int> result = new PrintableList<int>(size);
+            PrintableList result = new PrintableList(size);
             Random random = new Random();
             for (int i = 0; i < size; i++)
                 result[i] = random.Next(size * 100);

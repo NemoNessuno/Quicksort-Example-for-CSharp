@@ -8,3 +8,8 @@ C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x
 C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\bin\Release\Quicksort.exe
 C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\bin\Release\Quicksort.pdb
 C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Release\ResolveAssemblyReference.cache
+D:\workspace\Quicksort\Quicksort\bin\Release\Quicksort.exe
+D:\workspace\Quicksort\Quicksort\bin\Release\Quicksort.pdb
+D:\workspace\Quicksort\Quicksort\obj\x86\Release\ResolveAssemblyReference.cache
+D:\workspace\Quicksort\Quicksort\obj\x86\Release\Quicksort.exe
+D:\workspace\Quicksort\Quicksort\obj\x86\Release\Quicksort.pdb

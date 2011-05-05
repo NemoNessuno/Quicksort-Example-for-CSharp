@@ -10,3 +10,4 @@ C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x
 C:\Users\Nessuno\documents\visual studio 2010\Projects\Quicksort\Quicksort\obj\x86\Debug\Quicksort.pdb
 D:\workspace\Quicksort\Quicksort\obj\x86\Debug\Quicksort.exe
 D:\workspace\Quicksort\Quicksort\obj\x86\Debug\Quicksort.pdb
+D:\workspace\Quicksort\Quicksort\obj\x86\Debug\ResolveAssemblyReference.cache

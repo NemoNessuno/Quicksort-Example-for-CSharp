@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="PrintableList.cs" />
     <Compile Include="Integer.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
